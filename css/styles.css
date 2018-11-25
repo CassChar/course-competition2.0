@@ -17,6 +17,12 @@ li {
   padding: 0px 10px 0px 10px;
 }
 
+.ward {
+  display: block;
+  background: white;
+  text-align: left;
+}
+
 a {
   color: white;
 }
