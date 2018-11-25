@@ -2,12 +2,8 @@
 header {
   color: rgba(0,51,153,0.8);
   text-align: center;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   background-color: rgba(0,102,204,0.2);
-}
-
-body{
-  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 ul {
@@ -21,28 +17,6 @@ li {
   padding: 0px 10px 0px 10px;
 }
 
-#wards {
-  background: white;
-  text-align: left;
-}
-
-li.ward {
-  display: block;
-}
-
 a {
-  color: white;
-}
-
-input {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  display: block;
-  border: 0;
-  padding: 10px;
-  font-size: 18px;
-}
-
-input[type="submit"] {
-  background: green;
   color: white;
 }
