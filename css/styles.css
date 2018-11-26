@@ -1,25 +1,46 @@
 
 header {
-  color: rgba(0,51,153,0.8);
-  text-align: left;
+  color: white;
+  text-shadow: -2px 0 blue, 0 2px blue, 2px 0 blue, 0 -2px blue;
+  text-align: center;
   font-family: 'IBM Plex Sans', sans-serif;
   background-image: url("../images/tower_hamlets.jpg");
   background-size: cover;
+  margin: 0;
+  padding: 60px;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 50px;
 }
 
 #nav_bar {
-  padding: 50px;
+  padding: 40px;
   background:rgba(0,51,153,0.8) ;
   text-align:center;
   font-size: 25px;
+  color: white;
+  text-shadow: -2px 0 blue, 0 2px blue, 2px 0 blue, 0 -2px blue;
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin: 0;
+}
+
+img{
+  margin: 10px 0px 0px 700px;
 }
 
 ul li.name {
   display: block;
   background: white;
   text-align: left;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 20px;
 }
-
 
 ul {
   padding: 50px;
@@ -42,8 +63,12 @@ input {
 input[type="submit"] {
   background: green;
   color: white;
-
+}
 
 a {
+color: white;
+}
+
+a:visited {
   color: white;
 }
