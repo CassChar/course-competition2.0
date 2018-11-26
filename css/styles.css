@@ -6,6 +6,14 @@ header {
   background-color: rgba(0,102,204,0.2);
 }
 
+ul li.name {
+  display: block;
+  background: white;
+  text-align: left;
+
+}
+
+
 ul {
   padding: 10px;
   background: rgba(0, 128, 0, 0.8);
@@ -28,12 +36,6 @@ input[type="submit"] {
   background: green;
   color: white;
 
-.ward {
-  display: block;
-  background: white;
-  text-align: left;
-
-}
 
 a {
   color: white;
