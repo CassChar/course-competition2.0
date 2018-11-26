@@ -19,7 +19,7 @@ h2 {
 }
 
 #nav_bar {
-  padding: 50px;
+  padding: 40px;
   background:rgba(0,51,153,0.8) ;
   text-align:center;
   font-size: 25px;
@@ -28,6 +28,10 @@ h2 {
   text-align: center;
   font-family: 'IBM Plex Sans', sans-serif;
   margin: 0;
+}
+
+img{
+  margin: 10px 0px 0px 700px;
 }
 
 ul li.name {
@@ -59,7 +63,12 @@ input {
 input[type="submit"] {
   background: green;
   color: white;
+}
 
 a {
+color: white;
+}
+
+a:visited {
   color: white;
 }
