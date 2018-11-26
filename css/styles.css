@@ -17,10 +17,22 @@ li {
   padding: 0px 10px 0px 10px;
 }
 
+
+input {
+  border: 10;
+  padding: 10px;
+  display: block;
+}
+
+input[type="submit"] {
+  background: green;
+  color: white;
+
 .ward {
   display: block;
   background: white;
   text-align: left;
+
 }
 
 a {
