@@ -1,22 +1,29 @@
 
 header {
   color: rgba(0,51,153,0.8);
-  text-align: center;
+  text-align: left;
   font-family: 'IBM Plex Sans', sans-serif;
-  background-color: rgba(0,102,204,0.2);
+  background-image: url("../images/tower_hamlets.jpg");
+  background-size: cover;
+}
+
+#nav_bar {
+  padding: 50px;
+  background:rgba(0,51,153,0.8) ;
+  text-align:center;
+  font-size: 25px;
 }
 
 ul li.name {
   display: block;
   background: white;
   text-align: left;
-
 }
 
 
 ul {
-  padding: 10px;
-  background: rgba(0, 128, 0, 0.8);
+  padding: 50px;
+  background:rgba(0,51,153,0.8) ;
   text-align:center;
 }
 
