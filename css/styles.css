@@ -11,7 +11,7 @@ header {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 200px;
 }
 
 h2 {
@@ -30,9 +30,24 @@ h2 {
   margin: 0;
 }
 
-img{
-  margin: 10px 0px 0px 700px;
+.col-sm-4{
+  margin: 50px 0px 0px 0px;
 }
+
+.Welcome {
+  background: url("../images/lbth_ward.svg");
+  background-size: cover;
+  padding: 100px;
+
+}
+
+article {
+  background-color: rgba(0,51,153,0.8) ;
+  color: white;
+  font-size: 20px;
+  padding: 100px;
+}
+
 
 ul li.name {
   display: block;
@@ -79,6 +94,8 @@ color: white;
 a:visited {
   color: white;
 }
+
+
 
 .Table
     {
