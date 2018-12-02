@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 
+
 <html>
 <head>
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700" rel="stylesheet">
   <title>Know Your Councillors</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link href='css/bootstrap.css' rel='stylesheet'>
+  <link href="js/js.js">
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
 </head>
 
@@ -20,9 +22,9 @@
 
 <ul id="nav_bar">
   <li><a href="./index.html">Home</a></li>
-  <li><a href="#">About</a></li>
+  <li><a href="./about.html">About</a></li>
   <li><a href="./councillors.html">Councillors</a></li>
-  <li><a href="./wards.html">Wards</a></li>
+
   <li><a href="#">Contact Us</a></li>
 </ul>
 
@@ -33,7 +35,28 @@
 
   <input id="question" type="question" placeholder="Tell us your question">
   <input type="submit">
+
+  <script>
+  $("submit").on("click", function() {
+    alert("clicked!")
+    });
+  </script>
+
+
+    <div id='logo'>
+      <img class='inline' src='images/lbth_logo.png'>
+    </div>
+
 </form>
+
+
+<div id='row'>
+  <h5>Twitter</h5>
+  <h5>Instagram</h5>
+  <h5>Privacy Policy</h5>
+</div>
 </body>
+
+
 
 </html>
