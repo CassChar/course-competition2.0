@@ -143,3 +143,9 @@ form {
         padding-left: 5px;
         padding-right: 5px;
     }
+
+  .fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+  }
